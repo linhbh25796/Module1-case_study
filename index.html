@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="playGame.restart()">Restart</button>
+
+</body>
+<script src="js/Background.js"> </script>
+<script src="js/Bar.js"> </script>
+<script src="js/Chicken.js"></script>
+<script src="js/Egg.js"></script>
+<script src="js/Bowl.js"></script>
+<script src="js/GameResource.js"></script>
+<script src="js/Game.js"> </script>
+
+<script>
+    let playGame = new Game();
+    playGame.init();
+    playGame.start();
+</script>
+</html>
