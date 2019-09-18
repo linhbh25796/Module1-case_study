@@ -5,16 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<button onclick="playGame.restart()">Restart</button>
+<div><p> Try to catch the eggs <br/>
+    If you eat the shit, you will subtracted(-) 50 points.<br/>
+    If you eat the brown egg, you will plus(+) 5 points. <br/>
+    If you eat the yellow egg, you will plus(+) 10 points.<br/>
+    If your score is smaller than 0,you will play again.
+</p>
+    <button onclick="playGame.restart()">Restart</button>
+</div>
 
 </body>
-<script src="js/Background.js"> </script>
-<script src="js/Bar.js"> </script>
+<script src="js/Background.js"></script>
+<script src="js/Bar.js"></script>
 <script src="js/Chicken.js"></script>
 <script src="js/Egg.js"></script>
 <script src="js/Bowl.js"></script>
 <script src="js/GameResource.js"></script>
-<script src="js/Game.js"> </script>
+<script src="js/Game.js"></script>
 
 <script>
     let playGame = new Game();
